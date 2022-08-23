@@ -1,0 +1,104 @@
+﻿@page
+@model Me.Pages.BlogModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8" />
+	<title>وبلاگ</title>
+
+	<!-- Meta Data -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="address=no"/>
+	<meta name="author" content="EhsanSeyedzadeh" />
+	<meta name="description" content="EhsanSeyedzadeh" />
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="ArtTemplate" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="Ehsansz.ir" />
+	<meta property="og:image" content="assets/images/social.html" />
+	<meta property="og:description" content="EhsanSeyedzadeh" />
+	<meta property="og:site_name" content="EhsanSeyedzadeh" />
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/vendors/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/rtl.css"/>
+	
+</head>
+<body>
+    <main class="main">
+	    <div class="container gutter-top gutter-bottom">
+		    <div class="row sticky-parent">
+
+		        <div class="col-12 col-md-12 col-xl-9">
+				    <div class="box-outer pb-0">
+
+						<div class="nav-container">
+							<ul class="nav">
+								<li class="nav__item"><a asp-page="Index">درباره من</a></li>
+								<li class="nav__item"><a asp-page="Resume">رزومه من</a></li>
+								<li class="nav__item"><a asp-page="Portfolio">نمونه کار ها</a></li>
+								<li class="nav__item"><a asp-page="Blog" class="active">وبلاگ</a></li>
+								<li class="nav__item"><a asp-page="Contact">تماس با من</a></li>
+                            </ul>
+						</div>
+						
+						<div class="pb-0 pb-sm-2">
+		                    <h2 class="title title--h1 title__separate">مقالات و آموزش ها</h2>
+					    </div>
+
+						<div class="news-grid">
+
+							<article class="news-item box">
+							    <div class="news-item__image-wrap">
+									<a class="news-item__link" asp-page-handler="SinglePost"></a>
+								    <img class="cover lazyload" src="assets/images/news/news-5.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<div class="news-item__date"><span>طراحی</span>23 مرداد 1401</div>
+								    <h2 class="title title--h2"><a asp-page-handler="SinglePost">تست 1</a></h2>
+									<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+								</div>
+							</article>
+
+
+							<article class="news-item box">
+							    <div class="news-item__image-wrap">
+									<a class="news-item__link" asp-page-handler="SinglePost"></a>
+								    <img class="cover lazyload" src="assets/images/news/news-2.jpg" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<div class="news-item__date"><span>طراحی</span>23 مرداد 1401</div>
+								    <h2 class="title title--h2"><a asp-page-handler="SinglePost">تست 2</a></h2>
+									<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+								</div>
+							</article>
+
+						</div>
+					</div>
+		        </div>
+			</div>
+		</div>
+    </main>
+
+    <div class="back-to-top"></div>
+
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/common.js"></script>
+
+</body>
+</html>

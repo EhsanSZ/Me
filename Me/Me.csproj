@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="wwwroot\.idea\modules.xml" />
+    <Content Include="wwwroot\.idea\workspace.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.idea\V card.iml" />
+  </ItemGroup>
+
 </Project>
