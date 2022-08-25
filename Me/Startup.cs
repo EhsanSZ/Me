@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using VisitManagement.Infrastructure.Configuration;
+using WebMarkupMin.AspNetCore5;
 
 namespace Me
 {
@@ -17,8 +17,14 @@ namespace Me
 
         public IConfiguration Configuration { get; }
 
+       
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = Configuration.GetConnectionString("EhsanSQL");
+            VisitManagementBootstrapper.Configure(services, connectionString);
+
+            services.AddWebMarkupMin()
+                .AddHtmlMinification();
             services.AddRazorPages();
         }
 
@@ -35,8 +41,9 @@ namespace Me
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseWebMarkupMin();
 
             app.UseRouting();
 

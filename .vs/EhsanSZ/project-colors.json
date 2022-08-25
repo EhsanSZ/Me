@@ -5,6 +5,11 @@
       "ProjectGuid": "9f05293e-a968-40bd-841b-092fdfbc5cb1",
       "DisplayName": "Me",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Me/1.0.0": {
         "dependencies": {
+          "WebMarkupMin.AspNetCore5": "2.12.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -322,6 +323,60 @@
         },
         "compile": {
           "Me.dll": {}
+        }
+      },
+      "AdvancedStringBuilder/0.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {}
+        }
+      },
+      "WebMarkupMin.AspNet.Common/2.12.0": {
+        "dependencies": {
+          "WebMarkupMin.Core": "2.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebMarkupMin.AspNet.Common.dll": {
+            "assemblyVersion": "2.12.0.0",
+            "fileVersion": "2.12.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/WebMarkupMin.AspNet.Common.dll": {}
+        }
+      },
+      "WebMarkupMin.AspNetCore5/2.12.0": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "WebMarkupMin.AspNet.Common": "2.12.0"
+        },
+        "runtime": {
+          "lib/net5.0/WebMarkupMin.AspNetCore5.dll": {
+            "assemblyVersion": "2.12.0.0",
+            "fileVersion": "2.12.0.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/WebMarkupMin.AspNetCore5.dll": {}
+        }
+      },
+      "WebMarkupMin.Core/2.12.0": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebMarkupMin.Core.dll": {
+            "assemblyVersion": "2.12.0.0",
+            "fileVersion": "2.12.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/WebMarkupMin.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2029,6 +2084,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AdvancedStringBuilder/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IbN3r5whlJvi8MhCDPVpIb+NVScyUcKSdcJZrnoXFDyzPDISl3AbWouNBYIHRdZdfGuzqCQEhM1vkxbIKqQVaQ==",
+      "path": "advancedstringbuilder/0.1.0",
+      "hashPath": "advancedstringbuilder.0.1.0.nupkg.sha512"
+    },
+    "WebMarkupMin.AspNet.Common/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q00R7Fjkpl7JqlFwBA4gZpGMAIB/lVp/fJuPx3RCy3PzIOHalpCO3ZdaK54y0bByiOCIMfoMWK4xKeesh7kBww==",
+      "path": "webmarkupmin.aspnet.common/2.12.0",
+      "hashPath": "webmarkupmin.aspnet.common.2.12.0.nupkg.sha512"
+    },
+    "WebMarkupMin.AspNetCore5/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uRaZ02dVQvlvH/nuRXkAfv0VtixsehOBHSyRcmxylO1A0M7xiG9nJp6T0KF7obbR5X4Ql4BdnZtecAGc4dVmFQ==",
+      "path": "webmarkupmin.aspnetcore5/2.12.0",
+      "hashPath": "webmarkupmin.aspnetcore5.2.12.0.nupkg.sha512"
+    },
+    "WebMarkupMin.Core/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NUZGFpRtLwLgUsMer9nTrKGcgtbcCB7KRPiNpZBDwbaWfSVOKDQYygpZ0587hP9zHQ9jzCMpJenO6H2SUhUZXg==",
+      "path": "webmarkupmin.core/2.12.0",
+      "hashPath": "webmarkupmin.core.2.12.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

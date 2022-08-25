@@ -168,5 +168,9 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\Me.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\Me.deps.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\Me.runtimeconfig.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\Me.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\AdvancedStringBuilder.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\WebMarkupMin.AspNet.Common.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\WebMarkupMin.AspNetCore5.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\WebMarkupMin.Core.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\Me.Views.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\PubTmp\Out\Me.Views.pdb

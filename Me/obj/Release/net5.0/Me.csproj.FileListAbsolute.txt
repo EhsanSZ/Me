@@ -44,3 +44,7 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\ref\Me.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\Me.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\Me.genruntimeconfig.cache
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Release\net5.0\Me.csproj.CopyComplete
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Release\net5.0\AdvancedStringBuilder.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Release\net5.0\WebMarkupMin.AspNet.Common.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Release\net5.0\WebMarkupMin.AspNetCore5.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Release\net5.0\WebMarkupMin.Core.dll
