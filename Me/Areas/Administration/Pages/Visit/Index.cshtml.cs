@@ -7,6 +7,7 @@ namespace Me.Areas.Administration.Pages.Visit
     {
         public void OnGet()
         {
+
         }
     }
 }

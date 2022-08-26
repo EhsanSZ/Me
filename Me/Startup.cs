@@ -23,6 +23,9 @@ namespace Me
             var connectionString = Configuration.GetConnectionString("EhsanSQL");
             VisitManagementBootstrapper.Configure(services, connectionString);
 
+            services.AddResponseCaching();
+            services.AddSession();
+
             services.AddWebMarkupMin()
                 .AddHtmlMinification();
             services.AddRazorPages();
@@ -41,13 +44,20 @@ namespace Me
                 app.UseHsts();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
+
             app.UseStaticFiles();
+
             app.UseWebMarkupMin();
+
+            app.UseCookiePolicy();
+            app.UseSession();
 
             app.UseRouting();
 
 			app.UseAuthorization();
+
+            app.UseMiddleware<ApplicationVariable>();
 
 			app.UseEndpoints(endpoints =>
             {

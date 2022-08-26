@@ -10,7 +10,37 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "b17e9ed2-132e-4440-9ece-6101cd9c3403": {
+      "ProjectGuid": "b17e9ed2-132e-4440-9ece-6101cd9c3403",
+      "DisplayName": "VisitManagement.Application",
+      "ColorIndex": 1
+    },
+    "0888749c-3215-48bf-85bd-41122ef62577": {
+      "ProjectGuid": "0888749c-3215-48bf-85bd-41122ef62577",
+      "DisplayName": "VisitManagement.ApplicationContracts",
+      "ColorIndex": 2
+    },
+    "2815611d-63fc-45ef-810e-7dbaf94bf032": {
+      "ProjectGuid": "2815611d-63fc-45ef-810e-7dbaf94bf032",
+      "DisplayName": "VisitManagement.Domain",
+      "ColorIndex": 3
+    },
+    "27e5f090-5412-453d-ba5a-2cb1a81b62de": {
+      "ProjectGuid": "27e5f090-5412-453d-ba5a-2cb1a81b62de",
+      "DisplayName": "VisitManagement.Infrastructure.Configuration",
+      "ColorIndex": 4
+    },
+    "65ea6891-a204-4abb-84c4-b346daf9cdce": {
+      "ProjectGuid": "65ea6891-a204-4abb-84c4-b346daf9cdce",
+      "DisplayName": "VisitManagement.Infrastructure.EFCore",
+      "ColorIndex": 5
+    },
+    "c4ef4be1-934f-42bc-9938-fec1ddd95c65": {
+      "ProjectGuid": "c4ef4be1-934f-42bc-9938-fec1ddd95c65",
+      "DisplayName": "0_Framework",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 7
 }

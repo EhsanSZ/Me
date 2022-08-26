@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitManagement.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitManagement.Infrastructure.EFCore", "VisitManagement.Infrastructure.EFCore\VisitManagement.Infrastructure.EFCore.csproj", "{65EA6891-A204-4ABB-84C4-B346DAF9CDCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{C4EF4BE1-934F-42BC-9938-FEC1DDD95C65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{65EA6891-A204-4ABB-84C4-B346DAF9CDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65EA6891-A204-4ABB-84C4-B346DAF9CDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65EA6891-A204-4ABB-84C4-B346DAF9CDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EF4BE1-934F-42BC-9938-FEC1DDD95C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EF4BE1-934F-42BC-9938-FEC1DDD95C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EF4BE1-934F-42BC-9938-FEC1DDD95C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EF4BE1-934F-42BC-9938-FEC1DDD95C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

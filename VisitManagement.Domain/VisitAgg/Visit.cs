@@ -12,5 +12,6 @@ namespace VisitManagement.Domain.VisitAgg
         {
 
         }
+
     }
 }

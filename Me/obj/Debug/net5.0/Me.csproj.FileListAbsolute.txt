@@ -163,5 +163,9 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\VisitManagement.Domain.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\VisitManagement.Infrastructure.EFCore.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Visit\Index.cshtml.g.cs
 D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Menu.cshtml.g.cs
-D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Debug\net5.0\Razor\Areas\Administration\Pages\_ViewImports.cshtml.g.cs
-D:\MyProje\ASP.Net\Me\EhsanSZ\Me\obj\Debug\net5.0\Razor\Areas\Administration\Pages\_ViewStart.cshtml.g.cs
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\Me\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

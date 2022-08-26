@@ -1,5 +1,9 @@
 ﻿@page
+@using VisitManagement.Domain.OnlineAgg.Service
 @model Me.Areas.Administration.Pages.Visit.IndexModel
 @{
 }
-<p class="test">index visit</p>
+<ul>
+	<li>Online <span>@OnlineApplication.GetOnlineCount()</span></li>
+
+</ul>
