@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "VisitManagement.Application/1.0.0": {
         "dependencies": {
-          "VisitManagement.ApplicationContracts": "1.0.0"
+          "VisitManagement.ApplicationContracts": "1.0.0",
+          "VisitManagement.Domain": "1.0.0"
         },
         "runtime": {
           "VisitManagement.Application.dll": {}
@@ -17,6 +18,14 @@
       "VisitManagement.ApplicationContracts/1.0.0": {
         "runtime": {
           "VisitManagement.ApplicationContracts.dll": {}
+        }
+      },
+      "VisitManagement.Domain/1.0.0": {
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0"
+        },
+        "runtime": {
+          "VisitManagement.Domain.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "VisitManagement.ApplicationContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VisitManagement.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

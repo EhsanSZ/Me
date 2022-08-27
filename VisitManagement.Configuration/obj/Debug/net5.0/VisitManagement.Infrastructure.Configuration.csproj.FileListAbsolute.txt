@@ -15,3 +15,7 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\obj\Debug\net5.0\Vis
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\obj\Debug\net5.0\VisitManagement.Infrastructure.Configuration.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\obj\Debug\net5.0\ref\VisitManagement.Infrastructure.Configuration.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\obj\Debug\net5.0\VisitManagement.Infrastructure.Configuration.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\bin\Debug\net5.0\VisitManagement.Application.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\bin\Debug\net5.0\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\bin\Debug\net5.0\VisitManagement.Application.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Configuration\bin\Debug\net5.0\VisitManagement.ApplicationContracts.pdb

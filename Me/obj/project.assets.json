@@ -2240,9 +2240,36 @@
           "lib/netstandard2.1/WebMarkupMin.Core.dll": {}
         }
       },
+      "VisitManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0",
+          "VisitManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VisitManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VisitManagement.Application.dll": {}
+        }
+      },
+      "VisitManagement.ApplicationContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/VisitManagement.ApplicationContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VisitManagement.ApplicationContracts.dll": {}
+        }
+      },
       "VisitManagement.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/VisitManagement.Domain.dll": {}
         },
@@ -2255,6 +2282,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "VisitManagement.Application": "1.0.0",
           "VisitManagement.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
@@ -7712,6 +7740,16 @@
         "webmarkupmin.core.2.12.0.nupkg.sha512",
         "webmarkupmin.core.nuspec"
       ]
+    },
+    "VisitManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../VisitManagement.Application/VisitManagement.Application.csproj",
+      "msbuildProject": "../VisitManagement.Application/VisitManagement.Application.csproj"
+    },
+    "VisitManagement.ApplicationContracts/1.0.0": {
+      "type": "project",
+      "path": "../VisitManagement.ApplicationContracts/VisitManagement.ApplicationContracts.csproj",
+      "msbuildProject": "../VisitManagement.ApplicationContracts/VisitManagement.ApplicationContracts.csproj"
     },
     "VisitManagement.Domain/1.0.0": {
       "type": "project",

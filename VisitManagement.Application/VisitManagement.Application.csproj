@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VisitManagement.ApplicationContracts\VisitManagement.ApplicationContracts.csproj" />
+    <ProjectReference Include="..\VisitManagement.Domain\VisitManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>

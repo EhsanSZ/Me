@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VisitManagement.Application\VisitManagement.Application.csproj" />
     <ProjectReference Include="..\VisitManagement.Infrastructure.EFCore\VisitManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 

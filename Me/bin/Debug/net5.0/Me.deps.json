@@ -1992,7 +1992,30 @@
           "lib/netstandard2.1/WebMarkupMin.Core.dll": {}
         }
       },
+      "VisitManagement.Application/1.0.0": {
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0",
+          "VisitManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VisitManagement.Application.dll": {}
+        },
+        "compile": {
+          "VisitManagement.Application.dll": {}
+        }
+      },
+      "VisitManagement.ApplicationContracts/1.0.0": {
+        "runtime": {
+          "VisitManagement.ApplicationContracts.dll": {}
+        },
+        "compile": {
+          "VisitManagement.ApplicationContracts.dll": {}
+        }
+      },
       "VisitManagement.Domain/1.0.0": {
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0"
+        },
         "runtime": {
           "VisitManagement.Domain.dll": {}
         },
@@ -2003,6 +2026,7 @@
       "VisitManagement.Infrastructure.Configuration/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "VisitManagement.Application": "1.0.0",
           "VisitManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -4656,6 +4680,16 @@
       "sha512": "sha512-NUZGFpRtLwLgUsMer9nTrKGcgtbcCB7KRPiNpZBDwbaWfSVOKDQYygpZ0587hP9zHQ9jzCMpJenO6H2SUhUZXg==",
       "path": "webmarkupmin.core/2.12.0",
       "hashPath": "webmarkupmin.core.2.12.0.nupkg.sha512"
+    },
+    "VisitManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VisitManagement.ApplicationContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "VisitManagement.Domain/1.0.0": {
       "type": "project",

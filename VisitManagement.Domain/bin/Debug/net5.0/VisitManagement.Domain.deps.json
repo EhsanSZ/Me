@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "VisitManagement.Domain/1.0.0": {
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0"
+        },
         "runtime": {
           "VisitManagement.Domain.dll": {}
+        }
+      },
+      "VisitManagement.ApplicationContracts/1.0.0": {
+        "runtime": {
+          "VisitManagement.ApplicationContracts.dll": {}
         }
       }
     }
   },
   "libraries": {
     "VisitManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VisitManagement.ApplicationContracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

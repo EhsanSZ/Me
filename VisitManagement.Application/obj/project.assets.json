@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/VisitManagement.ApplicationContracts.dll": {}
         }
+      },
+      "VisitManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "VisitManagement.ApplicationContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VisitManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VisitManagement.Domain.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../VisitManagement.ApplicationContracts/VisitManagement.ApplicationContracts.csproj",
       "msbuildProject": "../VisitManagement.ApplicationContracts/VisitManagement.ApplicationContracts.csproj"
+    },
+    "VisitManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../VisitManagement.Domain/VisitManagement.Domain.csproj",
+      "msbuildProject": "../VisitManagement.Domain/VisitManagement.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "VisitManagement.ApplicationContracts >= 1.0.0"
+      "VisitManagement.ApplicationContracts >= 1.0.0",
+      "VisitManagement.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +74,9 @@
           "projectReferences": {
             "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.ApplicationContracts\\VisitManagement.ApplicationContracts.csproj": {
               "projectPath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.ApplicationContracts\\VisitManagement.ApplicationContracts.csproj"
+            },
+            "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Domain\\VisitManagement.Domain.csproj": {
+              "projectPath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Domain\\VisitManagement.Domain.csproj"
             }
           }
         }

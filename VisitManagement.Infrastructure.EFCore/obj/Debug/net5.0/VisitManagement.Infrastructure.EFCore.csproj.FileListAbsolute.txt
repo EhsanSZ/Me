@@ -16,3 +16,5 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Infrastructure.EFCore\obj\Debug\ne
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\VisitManagement.Infrastructure.EFCore.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Infrastructure.EFCore\obj\Debug\net5.0\VisitManagement.Infrastructure.EFCore.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Infrastructure.EFCore\obj\Debug\net5.0\VisitManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Infrastructure.EFCore\bin\Debug\net5.0\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Infrastructure.EFCore\bin\Debug\net5.0\VisitManagement.ApplicationContracts.pdb

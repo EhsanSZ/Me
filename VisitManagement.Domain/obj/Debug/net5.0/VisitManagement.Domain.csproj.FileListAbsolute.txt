@@ -10,3 +10,6 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\obj\Debug\net5.0\VisitManag
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\obj\Debug\net5.0\VisitManagement.Domain.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\obj\Debug\net5.0\ref\VisitManagement.Domain.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\obj\Debug\net5.0\VisitManagement.Domain.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\bin\Debug\net5.0\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\bin\Debug\net5.0\VisitManagement.ApplicationContracts.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.Domain\obj\Debug\net5.0\VisitManagement.Domain.csproj.CopyComplete

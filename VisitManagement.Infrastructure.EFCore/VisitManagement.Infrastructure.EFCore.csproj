@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\VisitManagement.Domain\VisitManagement.Domain.csproj" />
   </ItemGroup>
 
