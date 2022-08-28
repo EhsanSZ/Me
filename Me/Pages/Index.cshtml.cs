@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Me.Pages
 {
+    [ServiceFilter(typeof(SaveVisitorFilter))]
     public class IndexModel : PageModel
     {
         public void OnGet()

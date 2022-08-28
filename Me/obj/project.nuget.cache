@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D2CTyy8VszJo7CVAjmaC3oSguV7+GTgWcVE76ibEzCVhdaZCIfoGq5j9qxl99H6+3Xy3eGSrYFHEL6dzweBvLA==",
+  "dgSpecHash": "JK61hgCRy1kMYodhdpj6PzrRsiLbl4wqe+5xwdHix+pOQX6FlwoExUnBtur4SSsiSjNXXL4riDpEOcxQfVzX8g==",
   "success": true,
   "projectFilePath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\Me\\Me.csproj",
   "expectedPackageFiles": [
@@ -141,6 +141,7 @@
     "C:\\Users\\Ehsan\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Ehsan\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Ehsan\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ehsan\\.nuget\\packages\\uaparser\\3.1.46\\uaparser.3.1.46.nupkg.sha512",
     "C:\\Users\\Ehsan\\.nuget\\packages\\webmarkupmin.aspnet.common\\2.12.0\\webmarkupmin.aspnet.common.2.12.0.nupkg.sha512",
     "C:\\Users\\Ehsan\\.nuget\\packages\\webmarkupmin.aspnetcore5\\2.12.0\\webmarkupmin.aspnetcore5.2.12.0.nupkg.sha512",
     "C:\\Users\\Ehsan\\.nuget\\packages\\webmarkupmin.core\\2.12.0\\webmarkupmin.core.2.12.0.nupkg.sha512"

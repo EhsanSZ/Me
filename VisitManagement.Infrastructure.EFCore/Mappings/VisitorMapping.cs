@@ -17,6 +17,7 @@ namespace VisitManagement.Infrastructure.EFCore.Mappings
             builder.Property(x => x.Brand).HasMaxLength(50);
             builder.Property(x => x.FamilyDevice).HasMaxLength(50);
             builder.Property(x => x.Model).HasMaxLength(50);
+            builder.Property(x => x.VisitID).HasMaxLength(50);
 
         }
     }

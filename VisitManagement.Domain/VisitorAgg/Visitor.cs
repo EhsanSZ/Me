@@ -8,19 +8,26 @@ namespace VisitManagement.Domain.VisitorAgg
 {
     public class Visitor
     {
-        public int ID { get; set; }
-        public DateTime Date { get; set; }
-        public string IP { get; set; }
-        public string ReferrerLink { get; set; }
-        public string FamilyOS { get; set; }
-        public string Version { get; set; }
-        public string Brand { get; set; }
-        public string FamilyDevice { get; set; }
-        public string Model { get; set; }
-        public bool IsSpider { get; set; }
+        public int ID { get; private set; }
+        public DateTime Date { get; private set; }
+        public string IP { get; private set; }
+        public string ReferrerLink { get; private set; }
+        public string FamilyOS { get; private set; }
+        public string Version { get; private set; }
+        public string Brand { get; private set; }
+        public string FamilyDevice { get; private set; }
+        public string Model { get; private set; }
+        public bool IsSpider { get; private set; }
+        public string VisitID { get; private set; }
+
+        protected Visitor()
+        {
+                    
+        }
+
 
         public Visitor(string ip, string referrerLink, string familyOS, string version, string brand ,
-          string familyDevice, string model, bool isSpider = false)
+          string familyDevice, string model, bool isSpider , string visitID)
         {
             IP = ip;
             ReferrerLink = referrerLink;
@@ -31,6 +38,7 @@ namespace VisitManagement.Domain.VisitorAgg
             Model = model;
             IsSpider = isSpider;
             Date = DateTime.Now;
+            VisitID = visitID;
         }
 
     }

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Me.Pages
 {
+    [ServiceFilter(typeof(SaveVisitorFilter))]
     public class ContactModel : PageModel
     {
         public void OnGet()

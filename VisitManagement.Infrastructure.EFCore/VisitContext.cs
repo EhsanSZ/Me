@@ -7,7 +7,7 @@ namespace VisitManagement.Infrastructure.EFCore
     public class VisitContext : DbContext
     {
         public DbSet<Visitor> Visitors { get; set; }
-        public VisitContext(DbContextOptions<VisitContext> options)
+        public VisitContext(DbContextOptions<VisitContext> options): base(options)
         {
 
         }
@@ -17,5 +17,6 @@ namespace VisitManagement.Infrastructure.EFCore
             modelBuilder.ApplyConfigurationsFromAssembly(assembly);
             base.OnModelCreating(modelBuilder);
         }
+
     }
 }

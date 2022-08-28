@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using VisitManagement.Application;
+using VisitManagement.ApplicationContracts.Visitor;
 using VisitManagement.Infrastructure.Configuration;
 using WebMarkupMin.AspNetCore5;
 
@@ -20,14 +22,21 @@ namespace Me
        
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
+
             var connectionString = Configuration.GetConnectionString("EhsanSQL");
             VisitManagementBootstrapper.Configure(services, connectionString);
+
 
             services.AddResponseCaching();
             services.AddSession();
 
             services.AddWebMarkupMin()
                 .AddHtmlMinification();
+
+
+            services.AddTransient<SaveVisitorFilter>();
+
             services.AddRazorPages();
         }
 
@@ -59,7 +68,7 @@ namespace Me
 
             app.UseMiddleware<ApplicationVariable>();
 
-			app.UseEndpoints(endpoints =>
+            app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();

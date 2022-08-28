@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.46, )"
+            },
             "WebMarkupMin.AspNetCore5": {
               "target": "Package",
               "version": "[2.12.0, )"
@@ -228,8 +232,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.ApplicationContracts\\VisitManagement.ApplicationContracts.csproj": {
+                "projectPath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.ApplicationContracts\\VisitManagement.ApplicationContracts.csproj"
+              },
               "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Application\\VisitManagement.Application.csproj": {
                 "projectPath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Application\\VisitManagement.Application.csproj"
+              },
+              "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Domain\\VisitManagement.Domain.csproj": {
+                "projectPath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Domain\\VisitManagement.Domain.csproj"
               },
               "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Infrastructure.EFCore\\VisitManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\MyProje\\ASP.Net\\Me\\EhsanSZ\\VisitManagement.Infrastructure.EFCore\\VisitManagement.Infrastructure.EFCore.csproj"
@@ -247,6 +257,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"

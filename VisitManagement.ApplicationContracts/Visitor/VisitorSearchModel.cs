@@ -15,5 +15,6 @@ namespace VisitManagement.ApplicationContracts.Visitor
         public string Model { get; set; }
         public bool IsSpider { get; set; }
         public DateTime Date { get; set; }
+        public string VisitID { get; set; }
     }
 }

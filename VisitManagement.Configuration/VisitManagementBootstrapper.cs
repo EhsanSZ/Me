@@ -14,7 +14,9 @@ namespace VisitManagement.Infrastructure.Configuration
         {
             services.AddTransient<IVisitorApplication, VisitorApplication>();
             services.AddTransient<IVisitorRepository, VisitorRepository>();
+
             services.AddDbContext<VisitContext>(x => x.UseSqlServer(connectionString));
+
         }
     }
 }

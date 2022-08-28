@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "UAParser": "3.1.46",
           "VisitManagement.Infrastructure.Configuration": "1.0.0",
           "WebMarkupMin.AspNetCore5": "2.12.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -1949,6 +1950,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "UAParser/3.1.46": {
+        "runtime": {
+          "lib/netcoreapp2.0/UAParser.dll": {
+            "assemblyVersion": "3.1.46.0",
+            "fileVersion": "3.1.46.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/UAParser.dll": {}
+        }
+      },
       "WebMarkupMin.AspNet.Common/2.12.0": {
         "dependencies": {
           "WebMarkupMin.Core": "2.12.0"
@@ -2027,6 +2039,8 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "VisitManagement.Application": "1.0.0",
+          "VisitManagement.ApplicationContracts": "1.0.0",
+          "VisitManagement.Domain": "1.0.0",
           "VisitManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -4659,6 +4673,13 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "UAParser/3.1.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A3B7dwr9RHXdXapJxE+5OFTXyB6HNh0mnqrvQ0GvJ0bseFOO9HLVXNjQlC8SoVySijN2Hwb+KLPX43gLgCMOig==",
+      "path": "uaparser/3.1.46",
+      "hashPath": "uaparser.3.1.46.nupkg.sha512"
     },
     "WebMarkupMin.AspNet.Common/2.12.0": {
       "type": "package",
