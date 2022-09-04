@@ -29,7 +29,7 @@ namespace Me
                     new CookieOptions { Expires = DateTime.Now.AddYears(10) });
             }
             else
-                visitorID = context.HttpContext.Request.Cookies["VisitorId"];
+                visitorID = context.HttpContext.Request.Cookies["VisitorID"];
 
             if (Check(context.HttpContext))
             {
@@ -61,15 +61,12 @@ namespace Me
             {
                 string key = Guid.NewGuid().ToString();
                 context.Response.Cookies.Append("VisitorUser", key,
-                    new CookieOptions { Expires = DateTime.Now.AddMinutes(5) });
+                    new CookieOptions { Expires = DateTime.Now.AddMinutes(10) });
                 return true;
             }
             else
-            {
-                context.Response.Cookies.Delete("VisitorUser",
-                   new CookieOptions { Expires = DateTime.Now.AddMinutes(5) });
                 return false;
-            }
+
 
         }
 

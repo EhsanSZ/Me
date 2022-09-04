@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Me.Pages
 {
-    [ServiceFilter(typeof(SaveVisitorFilter))]
     public class PortfolioModel : PageModel
     {
+        [ServiceFilter(typeof(SaveVisitorFilter))]
         public void OnGet()
         {
         }

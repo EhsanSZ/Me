@@ -1,0 +1,12 @@
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\bin\Release\net5.0\VisitManagement.ApplicationContracts.deps.json
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\bin\Release\net5.0\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\bin\Release\net5.0\ref\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\bin\Release\net5.0\VisitManagement.ApplicationContracts.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.csproj.AssemblyReference.cache
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.AssemblyInfoInputs.cache
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.AssemblyInfo.cs
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.csproj.CoreCompileInputs.cache
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\ref\VisitManagement.ApplicationContracts.dll
+D:\MyProje\ASP.Net\Me\EhsanSZ\VisitManagement.ApplicationContracts\obj\Release\net5.0\VisitManagement.ApplicationContracts.pdb

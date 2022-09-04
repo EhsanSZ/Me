@@ -4,7 +4,6 @@
 //using VisitManagement.Domain.OnlineAgg;
 //using VisitManagement.Domain.OnlineAgg.Service;
 
-
 //namespace Me
 //{
 //    public class ApplicationVariable
@@ -27,7 +26,7 @@
 
 //                context.Response.Cookies.Append("OnlineUser", key,
 //                    new CookieOptions { Expires = DateTime.Now.AddMinutes(5) });
-//                //context.Session.SetString("OnlineUser", key);
+//                context.Session.SetString("OnlineUser", key);
 //            }
 //            else
 //            {
@@ -35,8 +34,8 @@
 //                OnlineApplication.Update(key);
 //                context.Response.Cookies.Delete("OnlineUser",
 //                    new CookieOptions { Expires = DateTime.Now.AddMinutes(5) });
-//                //context.Session.Remove("OnlineUser");
-//                //context.Session.SetString("OnlineUser", key);
+//                context.Session.Remove("OnlineUser");
+//                context.Session.SetString("OnlineUser", key);
 //            }
 
 //            await _next.Invoke(context);
@@ -47,10 +46,10 @@
 //        {
 //            if (string.IsNullOrWhiteSpace(context.Request.Cookies["OnlineUser"]))
 //            {
-//                //if (string.IsNullOrWhiteSpace(context.Session.GetString("OnlineUser")))
-//                //{
+//                if (string.IsNullOrWhiteSpace(context.Session.GetString("OnlineUser")))
+//                {
 //                    return true;
-//                //}
+//                }
 //            }
 //            return false;
 //        }
@@ -58,9 +57,9 @@
 
 //        public static string GetKey(HttpContext context)
 //        {
-//            //if (!string.IsNullOrWhiteSpace(context.Request.Cookies["OnlineUser"]))
+//            if (!string.IsNullOrWhiteSpace(context.Request.Cookies["OnlineUser"]))
 //                return context.Request.Cookies["OnlineUser"];
-//            //return context.Session.GetString("OnlineUser");
+//            return context.Session.GetString("OnlineUser");
 //        }
 
 //    }

@@ -22,18 +22,15 @@ namespace Me
        
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpContextAccessor();
-
+            
             var connectionString = Configuration.GetConnectionString("EhsanSQL");
             VisitManagementBootstrapper.Configure(services, connectionString);
 
-
+            services.AddHttpContextAccessor();
             services.AddResponseCaching();
             services.AddSession();
-
             services.AddWebMarkupMin()
                 .AddHtmlMinification();
-
 
             services.AddTransient<SaveVisitorFilter>();
 
@@ -66,7 +63,7 @@ namespace Me
 
 			app.UseAuthorization();
 
-            app.UseMiddleware<ApplicationVariable>();
+            //app.UseMiddleware<ApplicationVariable>();
 
             app.UseEndpoints(endpoints =>
             {

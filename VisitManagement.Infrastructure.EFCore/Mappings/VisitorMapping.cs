@@ -11,12 +11,12 @@ namespace VisitManagement.Infrastructure.EFCore.Mappings
             builder.ToTable("Visitors");
             builder.HasKey(x => x.ID);
 
-            builder.Property(x => x.IP).HasMaxLength(50);
-            builder.Property(x => x.FamilyOS).HasMaxLength(50);
-            builder.Property(x => x.Version).HasMaxLength(50);
-            builder.Property(x => x.Brand).HasMaxLength(50);
-            builder.Property(x => x.FamilyDevice).HasMaxLength(50);
-            builder.Property(x => x.Model).HasMaxLength(50);
+            builder.Property(x => x.IP).HasMaxLength(45);
+            builder.Property(x => x.FamilyOS).HasMaxLength(30);
+            builder.Property(x => x.Version).HasMaxLength(20);
+            builder.Property(x => x.Brand).HasMaxLength(20);
+            builder.Property(x => x.FamilyDevice).HasMaxLength(30);
+            builder.Property(x => x.Model).HasMaxLength(20);
             builder.Property(x => x.VisitID).HasMaxLength(50);
 
         }
