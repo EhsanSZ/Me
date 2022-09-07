@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\0_Framework\0_Framework.csproj" />
     <ProjectReference Include="..\VisitManagement.Domain\VisitManagement.Domain.csproj" />
   </ItemGroup>
 

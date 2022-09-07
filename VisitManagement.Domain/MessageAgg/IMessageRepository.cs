@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _0_Framework.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,13 +8,9 @@ using VisitManagement.ApplicationContracts.Message;
 
 namespace VisitManagement.Domain.MessageAgg
 {
-    public interface IMessageRepository
+    public interface IMessageRepository : IRepository<int,Message>
     {
-        void Add(Message message);
-        void Remove(Message message);
-        void Save();
         List<MessageViewModel> GetMessages(MessageSearchModel search);
-        Message GetMessageBy(int id);
         MessageDetailViewModel GetMessageDetailBy(int id);
     }
 }

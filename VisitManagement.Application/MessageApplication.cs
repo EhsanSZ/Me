@@ -28,15 +28,15 @@ namespace VisitManagement.Application
             var message = new Message(command.Name, command.Text, command.Ip, command.FamilyOS
                 , command.Version, command.Brand, command.FamilyDevice, command.Model, command.VisitID);
 
-            _messageRepository.Add(message);
-            _messageRepository.Save(); 
+            _messageRepository.Create(message);
+            _messageRepository.SaveChanges(); 
         }
 
         public void RemoveMessage(int id)
         {
-            var message = _messageRepository.GetMessageBy(id);
+            var message = _messageRepository.Get(id);
             _messageRepository.Remove(message);
-            _messageRepository.Save();
+            _messageRepository.SaveChanges();
         }
 
     }

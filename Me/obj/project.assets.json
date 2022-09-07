@@ -2249,6 +2249,20 @@
           "lib/netstandard2.1/WebMarkupMin.Core.dll": {}
         }
       },
+      "0_Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/0_Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/0_Framework.dll": {}
+        }
+      },
       "VisitManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2277,6 +2291,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "0_Framework": "1.0.0",
           "VisitManagement.ApplicationContracts": "1.0.0"
         },
         "compile": {
@@ -2307,6 +2322,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "0_Framework": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "VisitManagement.Domain": "1.0.0"
@@ -7778,6 +7794,11 @@
         "webmarkupmin.core.2.12.0.nupkg.sha512",
         "webmarkupmin.core.nuspec"
       ]
+    },
+    "0_Framework/1.0.0": {
+      "type": "project",
+      "path": "../0_Framework/0_Framework.csproj",
+      "msbuildProject": "../0_Framework/0_Framework.csproj"
     },
     "VisitManagement.Application/1.0.0": {
       "type": "project",

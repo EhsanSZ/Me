@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _0_Framework.Infrustructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,17 +9,12 @@ using VisitManagement.Domain.VisitorAgg;
 
 namespace VisitManagement.Infrastructure.EFCore.Repository
 {
-    public class VisitorRepository : IVisitorRepository
+    public class VisitorRepository :RepositoryBase<int, Visitor> , IVisitorRepository
     {
-        private readonly VisitContext _visitContext;
-        public VisitorRepository(VisitContext visitContext)
+        private readonly VisitContext _context;
+        public VisitorRepository(VisitContext context):base(context)
         {
-            _visitContext = visitContext;
-        }
-        public void Add(Visitor visitor)
-        {
-            _visitContext.Visitors.Add(visitor);
-            _visitContext.SaveChanges();
+            _context = context;
         }
 
         public List<Visitor> GetVisitors()

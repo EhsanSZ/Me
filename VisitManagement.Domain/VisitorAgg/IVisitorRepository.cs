@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _0_Framework.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +8,8 @@ using VisitManagement.ApplicationContracts.Visitor;
 
 namespace VisitManagement.Domain.VisitorAgg
 {
-    public interface IVisitorRepository
+    public interface IVisitorRepository : IRepository<int,Visitor>
     {
-        void Add(Visitor visitor);
         List<Visitor> GetVisitors();
         List<VisitorViewModel> GetVisitors(VisitorSearchModel searchModel);
     }

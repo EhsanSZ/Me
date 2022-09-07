@@ -1,29 +1,17 @@
-﻿using System;
+﻿using _0_Framework.Infrustructure;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using VisitManagement.ApplicationContracts.Message;
 using VisitManagement.Domain.MessageAgg;
 
 namespace VisitManagement.Infrastructure.EFCore.Repository
 {
-    public class MessageRepository : IMessageRepository
+    public class MessageRepository : RepositoryBase<int , Message> , IMessageRepository
     {
         private readonly VisitContext _context;
-        public MessageRepository(VisitContext context)
+        public MessageRepository(VisitContext context):base(context)
         {
             _context = context;
-        }
-
-        public void Add(Message message)
-        {
-            _context.Messages.Add(message);
-        }
-
-        public Message GetMessageBy(int id)
-        {
-           return _context.Messages.FirstOrDefault(x=> x.ID == id);
         }
 
         public MessageDetailViewModel GetMessageDetailBy(int id)
@@ -47,17 +35,35 @@ namespace VisitManagement.Infrastructure.EFCore.Repository
 
         public List<MessageViewModel> GetMessages(MessageSearchModel search)
         {
-            throw new NotImplementedException();
+            var query = _context.Messages.Select(x => new MessageViewModel
+            {
+                ID = x.ID ,
+                Date = x.Date ,
+                FamilyDevice = x.FamilyDevice ,
+                FamilyOS = x.FamilyOS ,
+                Ip = x.IP ,
+                Name = x.Name ,
+                VisitID = x.VisitID
+            });
+
+            if (!string.IsNullOrWhiteSpace(search.VisitID))
+                query.Where(x => x.VisitID.Contains(search.VisitID));
+            
+            if (!string.IsNullOrWhiteSpace(search.Name))
+                query.Where(x => x.Name.Contains(search.Name));
+
+            if (!string.IsNullOrWhiteSpace(search.Ip))
+                query.Where(x => x.Ip.Contains(search.Ip));
+
+            if (!string.IsNullOrWhiteSpace(search.FamilyDevice))
+                query.Where(x => x.FamilyDevice.Contains(search.FamilyDevice));
+
+            if (!string.IsNullOrWhiteSpace(search.FamilyOS))
+                query.Where(x => x.FamilyOS.Contains(search.FamilyOS));
+
+            return query.OrderByDescending(x=> x.ID).ToList();
+
         }
 
-        public void Remove(Message message)
-        {
-            _context.Messages.Remove(message);
-        }
-
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
     }
 }
