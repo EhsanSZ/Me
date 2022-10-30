@@ -40,7 +40,12 @@
       "ProjectGuid": "c4ef4be1-934f-42bc-9938-fec1ddd95c65",
       "DisplayName": "0_Framework",
       "ColorIndex": 6
+    },
+    "4d2dbf31-8c9c-414e-8ffa-5b5a44e3881c": {
+      "ProjectGuid": "4d2dbf31-8c9c-414e-8ffa-5b5a44e3881c",
+      "DisplayName": "FizzBuzz",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
