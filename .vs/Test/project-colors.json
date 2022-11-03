@@ -45,7 +45,17 @@
       "ProjectGuid": "4d2dbf31-8c9c-414e-8ffa-5b5a44e3881c",
       "DisplayName": "FizzBuzz",
       "ColorIndex": 7
+    },
+    "751461e7-be4e-4d3f-a76e-573622875251": {
+      "ProjectGuid": "751461e7-be4e-4d3f-a76e-573622875251",
+      "DisplayName": "Atm.Domain",
+      "ColorIndex": 8
+    },
+    "8cc6a847-edbf-47b6-b5e8-2b5c2a5f7a4c": {
+      "ProjectGuid": "8cc6a847-edbf-47b6-b5e8-2b5c2a5f7a4c",
+      "DisplayName": "Atm.Domain.Tests.Acceptance",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }
