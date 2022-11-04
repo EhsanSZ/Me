@@ -55,7 +55,17 @@
       "ProjectGuid": "8cc6a847-edbf-47b6-b5e8-2b5c2a5f7a4c",
       "DisplayName": "Atm.Domain.Tests.Acceptance",
       "ColorIndex": 9
+    },
+    "b6ba1bf3-e2d4-4458-aacd-2a3b04c35163": {
+      "ProjectGuid": "b6ba1bf3-e2d4-4458-aacd-2a3b04c35163",
+      "DisplayName": "Calculator.Core",
+      "ColorIndex": 10
+    },
+    "34f56717-da52-4dce-9c3e-692951616440": {
+      "ProjectGuid": "34f56717-da52-4dce-9c3e-692951616440",
+      "DisplayName": "Calculator.Core.Tests",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 12
 }
