@@ -1,6 +1,5 @@
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\bin\Debug\net5.0\Calculator.Core.deps.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\bin\Debug\net5.0\Calculator.Core.dll
-D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\bin\Debug\net5.0\ref\Calculator.Core.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\bin\Debug\net5.0\Calculator.Core.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\Calculator.Core.csproj.AssemblyReference.cache
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\Calculator.Core.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\Calculator.Core.c
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\Calculator.Core.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\ref\Calculator.Core.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\Calculator.Core.pdb
+D:\MyProje\ASP.Net\Me\EhsanSZ\Calculator.Core\obj\Debug\net5.0\refint\Calculator.Core.dll

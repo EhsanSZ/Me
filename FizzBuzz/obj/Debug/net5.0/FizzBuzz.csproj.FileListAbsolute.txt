@@ -8,7 +8,6 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\FizzBuzz.deps.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\FizzBuzz.runtimeconfig.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\FizzBuzz.runtimeconfig.dev.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\FizzBuzz.dll
-D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\ref\FizzBuzz.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\FizzBuzz.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
@@ -98,3 +97,4 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\obj\Debug\net5.0\FizzBuzz.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\obj\Debug\net5.0\ref\FizzBuzz.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\obj\Debug\net5.0\FizzBuzz.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\obj\Debug\net5.0\FizzBuzz.genruntimeconfig.cache
+D:\MyProje\ASP.Net\Me\EhsanSZ\FizzBuzz\obj\Debug\net5.0\refint\FizzBuzz.dll

@@ -9,7 +9,6 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\Atm.D
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\Atm.Domain.Tests.Acceptance.runtimeconfig.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\Atm.Domain.Tests.Acceptance.runtimeconfig.dev.json
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\Atm.Domain.Tests.Acceptance.dll
-D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\ref\Atm.Domain.Tests.Acceptance.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\Atm.Domain.Tests.Acceptance.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\FluentAssertions.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -106,3 +105,4 @@ D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\obj\Debug\net5.0\Atm.D
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\obj\Debug\net5.0\ref\Atm.Domain.Tests.Acceptance.dll
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\obj\Debug\net5.0\Atm.Domain.Tests.Acceptance.pdb
 D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\obj\Debug\net5.0\Atm.Domain.Tests.Acceptance.genruntimeconfig.cache
+D:\MyProje\ASP.Net\Me\EhsanSZ\Atm.Domain.Tests.Acceptance\obj\Debug\net5.0\refint\Atm.Domain.Tests.Acceptance.dll

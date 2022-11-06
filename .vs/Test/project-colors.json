@@ -65,7 +65,17 @@
       "ProjectGuid": "34f56717-da52-4dce-9c3e-692951616440",
       "DisplayName": "Calculator.Core.Tests",
       "ColorIndex": 11
+    },
+    "cc057bd5-30a9-4ed4-ab0b-1cdafeee5ba3": {
+      "ProjectGuid": "cc057bd5-30a9-4ed4-ab0b-1cdafeee5ba3",
+      "DisplayName": "AccountManagement",
+      "ColorIndex": 12
+    },
+    "8ff1775d-8530-4b58-b8f8-9cb31e4b28d6": {
+      "ProjectGuid": "8ff1775d-8530-4b58-b8f8-9cb31e4b28d6",
+      "DisplayName": "AccountMangement.Tests",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 14
 }

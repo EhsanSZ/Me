@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atm.Domain.Tests.Acceptance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Core", "Calculator.Core\Calculator.Core.csproj", "{B6BA1BF3-E2D4-4458-AACD-2A3B04C35163}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Core.Tests", "Calculator.Core.Tests\Calculator.Core.Tests.csproj", "{34F56717-DA52-4DCE-9C3E-692951616440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement", "AccountManagement\AccountManagement.csproj", "{CC057BD5-30A9-4ED4-AB0B-1CDAFEEE5BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManagement", "AccountManagement\AccountManagement.csproj", "{CC057BD5-30A9-4ED4-AB0B-1CDAFEEE5BA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMangement.Tests", "AccountMangement.Tests\AccountMangement.Tests.csproj", "{1E95BEE6-2F5B-4700-A0F4-A69250BFED89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountMangement.Tests", "AccountMangement.Tests\AccountMangement.Tests.csproj", "{8FF1775D-8530-4B58-B8F8-9CB31E4B28D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core.Tests", "Calculator.Core.Tests\Calculator.Core.Tests.csproj", "{5F196D6E-74CD-4AAD-B7DB-A655B6F2F14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +39,18 @@ Global
 		{B6BA1BF3-E2D4-4458-AACD-2A3B04C35163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6BA1BF3-E2D4-4458-AACD-2A3B04C35163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6BA1BF3-E2D4-4458-AACD-2A3B04C35163}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34F56717-DA52-4DCE-9C3E-692951616440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34F56717-DA52-4DCE-9C3E-692951616440}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34F56717-DA52-4DCE-9C3E-692951616440}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34F56717-DA52-4DCE-9C3E-692951616440}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC057BD5-30A9-4ED4-AB0B-1CDAFEEE5BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC057BD5-30A9-4ED4-AB0B-1CDAFEEE5BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC057BD5-30A9-4ED4-AB0B-1CDAFEEE5BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC057BD5-30A9-4ED4-AB0B-1CDAFEEE5BA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8FF1775D-8530-4B58-B8F8-9CB31E4B28D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FF1775D-8530-4B58-B8F8-9CB31E4B28D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8FF1775D-8530-4B58-B8F8-9CB31E4B28D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8FF1775D-8530-4B58-B8F8-9CB31E4B28D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E95BEE6-2F5B-4700-A0F4-A69250BFED89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E95BEE6-2F5B-4700-A0F4-A69250BFED89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E95BEE6-2F5B-4700-A0F4-A69250BFED89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E95BEE6-2F5B-4700-A0F4-A69250BFED89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F196D6E-74CD-4AAD-B7DB-A655B6F2F14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F196D6E-74CD-4AAD-B7DB-A655B6F2F14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F196D6E-74CD-4AAD-B7DB-A655B6F2F14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F196D6E-74CD-4AAD-B7DB-A655B6F2F14D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
